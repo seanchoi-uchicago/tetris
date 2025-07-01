@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "tetris-1",
+			"path": "."
+		},
+		{
+			"name": "tetris",
+			"path": "../Downloads/Tetris-Bot-main/tetris"
+		}
+	],
+	"settings": {}
+}
