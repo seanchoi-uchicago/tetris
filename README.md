@@ -2,7 +2,7 @@
 
 A sophisticated Tetris implementation featuring both manual gameplay and AI players with genetic algorithm optimization. This project includes multiple visualization options, advanced AI strategies, and a genetic algorithm framework for optimizing AI performance.
 
-## 🎮 Features
+## Features
 
 ### Core Gameplay
 - **Classic Tetris Mechanics**: Standard 10x24 game board with all 7 tetromino pieces
@@ -33,7 +33,7 @@ A sophisticated Tetris implementation featuring both manual gameplay and AI play
 - **Client-Server Architecture**: Multiplayer support via TCP/IP
 - **Wire Protocol**: Custom communication protocol for game state synchronization
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -51,7 +51,7 @@ A sophisticated Tetris implementation featuring both manual gameplay and AI play
 
 2. The project uses standard Python libraries except for pygame, which is used for the enhanced visual interface.
 
-## 🎯 Usage
+##  Usage
 
 ### Manual Gameplay
 
@@ -149,7 +149,7 @@ tetris-1/
 └── Segment7-4Gml.otf     # Font file for score display
 ```
 
-## 🎯 Performance
+##  Performance
 
 The optimized AI can achieve scores of 50,000+ points through:
 - Sophisticated board evaluation
@@ -157,7 +157,7 @@ The optimized AI can achieve scores of 50,000+ points through:
 - Strategic use of bombs and discards
 - Genetic algorithm optimization
 
-## 🔧 Configuration
+##  Configuration
 
 ### Game Parameters
 Edit `constants.py` to modify:
@@ -169,36 +169,3 @@ Edit `constants.py` to modify:
 ### AI Parameters
 Modify heuristic weights in `player.py` or use the genetic algorithm for automatic optimization.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📝 License
-
-This project is part of a university course assignment. Please respect academic integrity guidelines.
-
-## 🎓 Academic Context
-
-This project demonstrates:
-- Game AI development
-- Genetic algorithm implementation
-- Multi-threaded programming
-- Network programming
-- GUI development with multiple frameworks
-- Software architecture design
-
-## 🐛 Troubleshooting
-
-### Common Issues
-- **Import errors**: Ensure all required packages are installed
-- **Display issues**: Try different visualization options
-- **Network errors**: Check firewall settings and server availability
-
-### Performance Tips
-- Use terminal interface for fastest AI training
-- Adjust genetic algorithm parameters for your system
-- Monitor memory usage during long training sessions 
